@@ -18,3 +18,7 @@ pnpm tauri:build
 ```
 
 Tauri builds require the local Rust toolchain and platform prerequisites.
+
+## Source consolidation
+
+The standalone `cinna-tools-electron` repository is consolidated here. Its complete history and original source snapshot are retained in `archive/standalone-electron`; the maintained desktop application remains in `electron/`. See [consolidation details](docs/merged-electron.md).

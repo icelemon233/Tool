@@ -1,25 +1,27 @@
-# CinnaTool
+<p align="center"><img src="./electron/src/assets/icon.png" alt="CinnaTool" width="96"></p>
 
-English | [简体中文](./README.zh-CN.md)
+<h1 align="center">CinnaTool</h1>
 
-A desktop workspace for AI chat, to-do lists, and everyday file tools. Keep small tasks, useful text, and common utilities within reach.
+<p align="center">English · <a href="./README.zh-CN.md">简体中文</a></p>
 
-## What you can do
+A desktop app with AI chat, to-do lists, a calendar, and file utilities.
 
-- Organize to-do lists and a calendar of scheduled work.
-- Chat with a configured AI provider and translate text.
-- Save clipboard snippets, read files, and search their contents.
-- Compare code, inspect logs, browse images, and draft documents.
+## Tools
 
-The interface supports English and Chinese, appearance settings, and quick access tools. AI features use the provider and credentials you configure in Settings.
+- To-do lists and scheduled work.
+- AI chat and text translation with a provider you configure.
+- Clipboard snippets, file reading, and text search.
+- Code comparison, log analysis, image viewing, and document drafting.
 
-## Run from source
+English and Chinese interfaces are available. Provider settings and appearance options are in Settings.
 
-Install Node.js and the pnpm version declared in this repository, then run:
+## Run the app
+
+Install Node.js and the pnpm version listed in this repository, then run:
 
 ```sh
 pnpm install --frozen-lockfile
 pnpm electron:dev
 ```
 
-The desktop app opens after the local development services start. Configure your AI provider in Settings when you want to use AI features.
+The desktop window opens when the local services are ready. Add your provider settings to use AI chat and translation.

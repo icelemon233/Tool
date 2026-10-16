@@ -1,24 +1,25 @@
 # CinnaTool
 
-This repository keeps two desktop implementations side by side:
+English | [简体中文](./README.zh-CN.md)
 
-- `electron/` - the existing Electron application, kept as the stable architecture.
-- `tauri/` - a Tauri v2 port that reuses the renderer experience with a Tauri command bridge.
+A desktop workspace for AI chat, to-do lists, and everyday file tools. Keep small tasks, useful text, and common utilities within reach.
 
-Common commands:
+## What you can do
 
-```bash
-pnpm install
-pnpm electron:build
-pnpm electron:dist:win
-pnpm electron:build:mac
-pnpm tauri:frontend:build
-pnpm tauri:dev
-pnpm tauri:build
+- Organize to-do lists and a calendar of scheduled work.
+- Chat with a configured AI provider and translate text.
+- Save clipboard snippets, read files, and search their contents.
+- Compare code, inspect logs, browse images, and draft documents.
+
+The interface supports English and Chinese, appearance settings, and quick access tools. AI features use the provider and credentials you configure in Settings.
+
+## Run from source
+
+Install Node.js and the pnpm version declared in this repository, then run:
+
+```sh
+pnpm install --frozen-lockfile
+pnpm electron:dev
 ```
 
-Tauri builds require the local Rust toolchain and platform prerequisites.
-
-## Source consolidation
-
-The standalone `cinna-tools-electron` repository is consolidated here. Its complete history and original source snapshot are retained in `archive/standalone-electron`; the maintained desktop application remains in `electron/`. See [consolidation details](docs/merged-electron.md).
+The desktop app opens after the local development services start. Configure your AI provider in Settings when you want to use AI features.

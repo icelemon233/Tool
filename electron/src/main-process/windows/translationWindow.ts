@@ -34,7 +34,7 @@ export function openTranslationQuickWindow(): BrowserWindow {
     show: false,
     alwaysOnTop: true,
     autoHideMenuBar: true,
-    title: 'CinnaTool AI Translation',
+    title: 'Tool AI Translation',
     icon: getAppIconPath(),
     backgroundColor: '#fbfbfa',
     webPreferences: {

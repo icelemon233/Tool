@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "CinnaTool",
+  "productName": "Tool",
   "version": "1.0.0",
   "identifier": "com.cinna.tools.tauri",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "CinnaTool",
+        "title": "Tool",
         "width": 1180,
         "height": 760,
         "minWidth": 400,
@@ -50,6 +50,7 @@
       "../src/assets/icon.png",
       "../src/assets/icon.icns",
       "../src/assets/icon.ico"
-    ]
+    ],
+    "publisher": "Cinna"
   }
 }

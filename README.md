@@ -1,6 +1,6 @@
-<p align="center"><img src="./docs/brand/cinna-app-icon.png" alt="CinnaTool Cinna icon" width="128"></p>
+<p align="center"><img src="./docs/brand/cinna-app-icon.png" alt="Tool icon" width="128"></p>
 
-<h1 align="center">CinnaTool</h1>
+<h1 align="center">Tool</h1>
 
 <p align="center">English · <a href="./README.zh-CN.md">简体中文</a></p>
 
@@ -25,3 +25,5 @@ pnpm electron:dev
 ```
 
 The desktop window opens when the local services are ready. Add your provider settings to use AI chat and translation.
+
+Developer: Cinna.

@@ -1,8 +1,8 @@
-# CinnaTool Todo 使用说明
+# Tool Todo 使用说明
 
 ## 功能概述
 
-CinnaTool Todo 是一个参考 Microsoft To Do 设计的个人任务管理工具，支持多视图、自定义列表、优先级标记、截止日期等功能。
+Tool Todo 是一个参考 Microsoft To Do 设计的个人任务管理工具，支持多视图、自定义列表、优先级标记、截止日期等功能。
 
 ## 视图说明
 

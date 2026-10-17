@@ -1,4 +1,4 @@
-# CinnaTool
+# Tool
 
 一个集成了 Todo 管理和 AI 多模型聊天的 Electron 桌面应用。
 
@@ -66,7 +66,7 @@ pnpm dist
 ## 项目结构
 
 ```
-CinnaTool/
+Tool/
 ├── src/
 │   ├── main.ts              # Electron 主进程入口
 │   ├── preload.ts           # 预加载脚本（contextBridge）

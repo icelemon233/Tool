@@ -91,8 +91,8 @@ const SettingsPage: React.FC<SettingsPageProps> = ({ activeSection, onSectionCha
     () => [
       [t('settings.version'), APP_VERSION],
       ['Electron', getElectronRuntimeVersion()],
-      ['Developer', '🧊🍋 icelemon'],
-      ['App', 'CinnaTool'],
+      ['Developer', 'Cinna'],
+      ['App', 'Tool'],
     ],
     [t]
   );

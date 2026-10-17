@@ -11,7 +11,7 @@ const APP_VERSION = '1.0.0';
 const labels = {
   zh: {
     show: '显示窗口',
-    about: '关于 CinnaTool',
+    about: '关于 Tool',
     devtools: '打开开发者工具',
     quit: '退出',
     ok: '确定',
@@ -19,7 +19,7 @@ const labels = {
   },
   en: {
     show: 'Show Window',
-    about: 'About CinnaTool',
+    about: 'About Tool',
     devtools: 'Open DevTools',
     quit: 'Quit',
     ok: 'OK',
@@ -53,7 +53,7 @@ function updateMenu() {
         dialog.showMessageBox({
           type: 'info',
           title: t('about'),
-          message: 'CinnaTool',
+          message: 'Tool',
           detail: t('detail')
             .replace('{version}', APP_VERSION)
             .replace('{electron}', process.versions.electron)
@@ -107,7 +107,7 @@ export function createTray(mainWindow: BrowserWindow, isLocked: () => boolean = 
   const icon = createTrayIcon();
 
   tray = new Tray(icon);
-  tray.setToolTip('CinnaTool');
+  tray.setToolTip('Tool');
   updateMenu();
 
   // Keep tray click predictable: show/focus the app instead of hiding it when already foreground.

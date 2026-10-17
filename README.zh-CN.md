@@ -1,6 +1,6 @@
-<p align="center"><img src="./docs/brand/cinna-app-icon.png" alt="CinnaTool Cinna icon" width="128"></p>
+<p align="center"><img src="./docs/brand/cinna-app-icon.png" alt="Tool icon" width="128"></p>
 
-<h1 align="center">CinnaTool</h1>
+<h1 align="center">Tool</h1>
 
 <p align="center"><a href="./README.md">English</a> · 简体中文</p>
 
@@ -25,3 +25,5 @@ pnpm electron:dev
 ```
 
 本地服务就绪后会打开应用窗口。使用 AI 聊天和翻译前，需要填写自己的服务配置。
+
+开发者：Cinna。

@@ -1,5 +1,5 @@
 appId: com.cinna.tools
-productName: CinnaTool
+productName: Tool
 artifactName: ${productName}-${version}-${os}-${arch}.${ext}
 electronVersion: 42.3.3
 electronDownload:
@@ -51,4 +51,4 @@ nsis:
   allowToChangeInstallationDirectory: true
   createDesktopShortcut: true
   createStartMenuShortcut: true
-  shortcutName: CinnaTool
+  shortcutName: Tool

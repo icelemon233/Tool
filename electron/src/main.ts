@@ -1,4 +1,7 @@
 import { app, BrowserWindow, nativeImage } from 'electron';
+import fs from 'node:fs';
+import path from 'node:path';
+import { resolveLegacyProfilePath } from './main-process/app/profilePath';
 import { registerGlobalShortcuts } from './main-process/app/shortcuts';
 import { createTray, refreshTrayMenu } from './main-process/app/tray';
 import { registerIpcHandlers } from './main-process/ipc/index';
@@ -20,6 +23,11 @@ function logStartup(label: string): void {
   if (!shouldLogStartup) return;
   console.log(`[startup +${Date.now() - startupStartedAt}ms] ${label}`);
 }
+
+const legacyProfilePath = resolveLegacyProfilePath(app.getPath('appData'), app.isPackaged);
+fs.mkdirSync(legacyProfilePath, { recursive: true });
+app.setPath('userData', legacyProfilePath);
+app.setName('Tool');
 
 const bootPreferences = loadConfig()['app-preferences'] as { hardwareAcceleration?: boolean } | undefined;
 if (bootPreferences?.hardwareAcceleration === false) {

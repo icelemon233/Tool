@@ -59,7 +59,7 @@ export function registerWindowHandlers({
       maximizable: false,
       alwaysOnTop: true,
       show: false,
-      title: 'CinnaTool Quick Tools',
+      title: 'Tool Quick Tools',
       transparent: true,
       backgroundColor: '#00000000',
       webPreferences: {

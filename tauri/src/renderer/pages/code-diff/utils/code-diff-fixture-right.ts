@@ -1,4 +1,4 @@
-// Auto-generated fixture for CinnaTool code diff testing.
+// Auto-generated fixture for Tool code diff testing.
 // Drag this file into the code diff page; it intentionally has more than 300 lines.
 export const codeDiffFixtureSide = 'right';
 

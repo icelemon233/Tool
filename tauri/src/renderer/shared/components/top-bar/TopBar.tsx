@@ -1,10 +1,7 @@
 import React from 'react';
 import { Button } from 'antd';
 import { SettingOutlined } from '@ant-design/icons';
-import { useSettingsStore } from '@/shared/store/settingsStore';
 import { useTranslation } from '@/shared/i18n';
-import logoBlack from '@assets/logo_black.png';
-import logoWhite from '@assets/logo_white.png';
 import './TopBar.css';
 
 interface TopBarProps {
@@ -12,18 +9,12 @@ interface TopBarProps {
 }
 
 const TopBar: React.FC<TopBarProps> = ({ onOpenSettings }) => {
-  const { theme } = useSettingsStore();
   const { t } = useTranslation();
-  const isDarkTheme = theme === 'dark';
 
   return (
     <header className="topbar">
       <div className="topbar-row" data-tauri-drag-region="deep">
-        <img
-          className={`topbar-logo${isDarkTheme ? ' is-dark' : ''}`}
-          src={isDarkTheme ? logoWhite : logoBlack}
-          alt="CinnaTool"
-        />
+        <span className="topbar-wordmark">Tool</span>
 
         <div className="topbar-actions" data-tauri-drag-region="false">
           <Button

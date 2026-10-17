@@ -90,8 +90,8 @@ const SettingsPage: React.FC<SettingsPageProps> = ({ activeSection, onSectionCha
     () => [
       [t('settings.version'), APP_VERSION],
       ['Runtime', getDesktopRuntimeVersion()],
-      ['Developer', '🧊🍋 icelemon'],
-      ['App', 'CinnaTool'],
+      ['Developer', 'Cinna'],
+      ['App', 'Tool'],
     ],
     [t]
   );

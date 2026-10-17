@@ -161,7 +161,7 @@ export function createMainWindow(
     minWidth: 400,
     minHeight: 300,
     show: false,
-    title: 'CinnaTool',
+    title: 'Tool',
     icon: getAppIconPath(),
     backgroundColor: '#fbfbfa',
     ...chromeOptions,

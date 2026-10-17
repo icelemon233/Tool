@@ -1,7 +1,7 @@
 [package]
 name = "cinna-tools-tauri"
 version = "1.0.0"
-description = "CinnaTool Tauri desktop application"
+description = "Tool Tauri desktop application"
 authors = ["Cinna"]
 edition = "2021"
 

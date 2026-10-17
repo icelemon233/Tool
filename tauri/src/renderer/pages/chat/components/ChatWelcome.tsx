@@ -1,10 +1,8 @@
 import { Button, Space, Typography } from 'antd';
 import { SettingOutlined } from '@ant-design/icons';
 import type React from 'react';
-import { useSettingsStore } from '@/shared/store/settingsStore';
 import ChatInput from './ChatInput';
-import logoBlack from '@assets/logo_black.png';
-import logoWhite from '@assets/logo_white.png';
+import appIcon from '@assets/brand-icon.png';
 
 type ChatInputProps = React.ComponentProps<typeof ChatInput>;
 
@@ -23,15 +21,13 @@ export function ChatWelcome({
   onOpenSettings,
   t,
 }: ChatWelcomeProps) {
-  const { theme } = useSettingsStore();
-  const logo = theme === 'dark' ? logoWhite : logoBlack;
 
   if (!isConfigured) {
     return (
       <div className="chat-welcome">
         <div className="chat-welcome-inner">
           <div className="chat-welcome-content">
-            <img className="chat-welcome-logo" src={logo} alt="CinnaTool" />
+            <img className="chat-welcome-logo" src={appIcon} alt="Tool" />
             <Space className="chat-welcome-copy" orientation="vertical" size={4}>
               <Typography.Title className="chat-welcome-title" level={2}>
                 {greeting}
@@ -52,7 +48,7 @@ export function ChatWelcome({
       <div className="chat-welcome-inner">
         <Space className="chat-welcome-stack" orientation="vertical" size={20}>
           <div className="chat-welcome-content">
-            <img className="chat-welcome-logo" src={logo} alt="CinnaTool" />
+            <img className="chat-welcome-logo" src={appIcon} alt="Tool" />
             <Space className="chat-welcome-copy" orientation="vertical" size={2}>
               <Typography.Title className="chat-welcome-title" level={2}>
                 {greeting}

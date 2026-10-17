@@ -1,7 +1,7 @@
 {
   "name": "cinna-tools",
   "version": "1.0.0",
-  "description": "CinnaTool - AI Chat & Todo Desktop Application",
+  "description": "Tool - AI Chat & Todo Desktop Application",
   "main": "dist/main.js",
   "scripts": {
     "clean": "node scripts/clean-build.mjs dist dist-renderer",

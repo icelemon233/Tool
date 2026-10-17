@@ -2,7 +2,7 @@
   "name": "cinna-tool-workspace",
   "private": true,
   "version": "1.0.0",
-  "description": "CinnaTool desktop apps: Electron and Tauri editions.",
+  "description": "Tool desktop apps: Electron and Tauri editions.",
   "packageManager": "pnpm@11.5.2",
   "scripts": {
     "electron:dev": "pnpm --dir electron dev",
@@ -16,5 +16,6 @@
   "workspaces": [
     "electron",
     "tauri"
-  ]
+  ],
+  "author": "Cinna"
 }

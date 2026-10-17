@@ -1,4 +1,4 @@
-<p align="center"><img src="./electron/src/assets/icon.png" alt="CinnaTool" width="96"></p>
+<p align="center"><img src="./docs/brand/cinna-app-icon.png" alt="CinnaTool Cinna icon" width="128"></p>
 
 <h1 align="center">CinnaTool</h1>
 
